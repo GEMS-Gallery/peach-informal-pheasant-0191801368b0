@@ -1,0 +1,7 @@
+service : {
+  getGameState: () -> (text) query;
+  resetGame: () -> ();
+  updateCommanderDamage: (nat, nat, int) -> ();
+  updateLifeTotal: (nat, int) -> ();
+  updatePoisonCounters: (nat, int) -> ();
+}

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://images.unsplash.com/photo-1550353185-761a5da3ee96?ixid=M3w2MzIxNTd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ0MzA2OTJ8&ixlib=rb-4.0.3');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-area {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  padding: 16px;
+  margin: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.life-total {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.counter-button {
+  min-width: 40px;
+}
+
+.counter-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+.reset-button {
+  margin-top: 16px;
+}
